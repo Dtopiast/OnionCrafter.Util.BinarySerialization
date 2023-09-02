@@ -4,7 +4,40 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+	  <Description>Provides a lightweight and efficient solution for binary serialization in .NET 7, OnionCrafter.Util.BinarySerialization library offers a seamless way to serialize and deserialize data, enhancing performance and simplifying data manipulation within your applications.</Description>
+	  <VersionPrefix>1.0.0</VersionPrefix>
+
+	  <GenerateDocumentationFile>True</GenerateDocumentationFile>
+	  <PackageIcon>JustLogo.png</PackageIcon>
+	  <IncludeSymbols>True</IncludeSymbols>
+	  <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+	  <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+	  <Copyright>Copyright 2023 Dtopiast</Copyright>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	  <AssemblyVersion>$(VersionPrefix)</AssemblyVersion>
+	  <FileVersion>$(VersionPrefix)</FileVersion>
+	  <Version>$(VersionPrefix)</Version>
+	  <Authors>Dtopiast</Authors>
+	  <RepositoryType>git</RepositoryType>
+	  <PackageTags>extension binaryserialization</PackageTags>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
+	  <RepositoryUrl>https://github.com/Dtopiast/OnionCrafter.Util.BinarySerialization</RepositoryUrl>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\Images\JustLogo.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\..\OnionCrafter.Utils.Exception\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="OnionCrafter.Utils.Exception" Version="1.0.3" />

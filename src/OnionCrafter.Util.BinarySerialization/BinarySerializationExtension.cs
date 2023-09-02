@@ -38,7 +38,7 @@ namespace OnionCrafter.Util.BinarySerialization
         }
 
         /// <summary>
-        /// Gets the json serializer options.
+        /// The inmutable and innaccessible for the programmer json serializer options.
         /// </summary>
         /// <returns></returns>
         private static JsonSerializerOptions GetJsonSerializerOptions()
