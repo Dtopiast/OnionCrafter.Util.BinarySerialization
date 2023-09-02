@@ -1,7 +1,7 @@
 
 # OnionCrafter.Util.BinarySerialization
 
-![Versión de la librería](https://img.shields.io/badge/Versi%C3%B3n-1.0.0-brightgreen) [![NuGet](https://img.shields.io/nuget/v/OnionCrafter.Utils.BinarySerialization.svg)](https://www.nuget.org/packages/OnionCrafter.Utils.BinarySerialization/)
+![Versión de la librería](https://img.shields.io/badge/Versi%C3%B3n-1.0.0-brightgreen) [![NuGet](https://img.shields.io/nuget/v/OnionCrafter.Utils.BinarySerialization.svg)](https://www.nuget.org/packages/OnionCrafter.Util.BinarySerialization/)
 
 ![](https://raw.githubusercontent.com/Dtopiast/OnionCrafter.Util.BinarySerialization/main/Images/Logo.png)
 
