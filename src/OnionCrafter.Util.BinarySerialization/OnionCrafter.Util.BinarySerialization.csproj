@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 	  <Description>Provides a lightweight and efficient solution for binary serialization in .NET 7, OnionCrafter.Util.BinarySerialization library offers a seamless way to serialize and deserialize data, enhancing performance and simplifying data manipulation within your applications.</Description>
-	  <VersionPrefix>1.0.0</VersionPrefix>
+	  <VersionPrefix>1.0.1</VersionPrefix>
 
 	  <GenerateDocumentationFile>True</GenerateDocumentationFile>
 	  <PackageIcon>JustLogo.png</PackageIcon>
